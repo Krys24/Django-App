@@ -1,5 +1,7 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-
+# This is a function we will set up a path to in our urls.py
 def index(request):
-    return HttpResponse("Hello vehicles page.")
+
+# return base.html passing our populated variables title and cal as parameters
+    return render(request, 'base.html')
