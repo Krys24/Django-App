@@ -1,0 +1,11 @@
+<! \assignment\static\main.css !>
+
+head {
+	border-style: none;
+	width: 800px;
+	height: auto;
+}
+
+h1 {
+	color: #f1c232
+}
