@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15a95e3c-a31f-41ba-af88-c764bce20527" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/blue_bmw.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/new_mercedes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/new_renault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/new_tesla.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css.bak" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="28Hk8JCBL7ztS2dEBhuRDoD6riL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
