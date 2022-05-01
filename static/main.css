@@ -1,19 +1,12 @@
 <! \assignment\static\main.css !>
 
 body {
-	margin: 0;
+	font-family: Georgia, serif;
 }
 
 ul {
-	list-style: none;
 	margin: 0;
 	padding: 0;
-}
-
-head {
-	border-style: none;
-	width: 800px;
-	height: auto;
 }
 
 header {
@@ -23,6 +16,7 @@ header {
 	padding: 1.5rem 5rem;
 	width: 100%;
 	box-sizing: border-box;
+	background-color: rgb(230, 230, 230);
 }
 
 header ul {
@@ -31,6 +25,7 @@ header ul {
 
 header li {
 	margin-left: 5rem;
+	list-style: none;
 }
 
 header a {
@@ -42,15 +37,28 @@ header a {
 	border-radius: 6px;
 }
 
+#page-logo a {
+	font-size: 3rem;
+	color: rgb(204, 153, 255);
+}
+
 header nav a:hover {
 	color: rgb(77, 77, 77);
 	background-color: rgb(196, 196, 175);
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 
 .cardholder {
 	display: flex;
 	justify-content: space-between;
-	margin: 2rem 1rem;
+	margin: 2rem;
 }
+
+
 
