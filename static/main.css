@@ -12,7 +12,6 @@ header {
 	padding: 1.5rem 5rem;
 	width: 100%;
 	box-sizing: border-box;
-
 }
 
 header ul {
@@ -61,33 +60,41 @@ img {
 	border-radius: 4px;
 }
 
-
 .cardholder {
 	display: flex;
 	justify-content: space-between;
-	margin: 2rem;
+	margin: 5rem;
+}
+
+.card-body {
+	background-color: #a366ff;
+	padding: 3rem 1rem;
+	border-radius: 6px;
+	box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    transition: transform .2s;
+}
+
+.card-body:hover {
+    transform: scale(1.1);
 }
 
 .card-title {
 	font-size: 1.5rem;
-	color: rgb(26, 26, 26);
+	color: #f2f2f2;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 	margin: 1rem 0;
 }
 
-.card-body {
-	background-color: rgb(238, 204, 255);
-	padding: 1.5rem 1rem;
-	border-radius: 6px;
+.card-text {
+    padding: 1rem 0;
 }
 
 .card-body a {
 	text-decoration: none;
 	background-color: rgb(133, 133, 224);
 	padding: 0.5rem 1rem;
-	color: rgb(51, 51, 51);
+	color: #ccf5ff;
 	font-size: 1rem;
-	font-weight: bold;
 	border-radius: 8px;
 	box-shadow: 2px 4px 8px rgb(68, 67, 67);
 }
@@ -96,9 +103,23 @@ img {
 	background-color: rgb(133, 125, 224);
 }
 
-#about-section {
+footer {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
     text-align: center;
-    padding: 5% 15%;
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    padding: 2% 10%;
+    margin: auto;
+}
+
+#vid {
+    height: 20rem;
+    width: 35rem;
 }
 
 #vehicles-ul {
@@ -123,6 +144,14 @@ img {
       margin: 10px 0;
 }
 
+.vehicles-li img {
+    transition: transform .2s;
+}
+
+.vehicles-li img:hover {
+    transform: scale(1.1);
+}
+
 span {
     font-weight: bold;
 }
@@ -142,3 +171,45 @@ div strong {
 .model {
   color: rgb(0, 160, 117);
 }
+
+#contactContent
+{
+	text-size: 5rem;
+	font-weight: bold;
+	width: 80%;
+	height: 100%;
+	padding: 1.5rem;
+	margin: auto;
+	color: white;
+	font-size: 30px;
+	display: flex;
+	background: linear-gradient(10deg, rgb(128, 128, 255), rgb(100, 100, 255));
+	border-radius: 6px;
+	box-shadow: 2px 4px 8px rgb(68, 67, 67);
+	justify-content: space-between;
+}
+
+#submit {
+    background-color: #15cc71;
+    border: none;
+    border-radius: 6px;
+    height: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    font-size: 1rem;
+}
+
+input {
+    background-color: #eff0f0;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+input:hover,
+input:focus {
+    background-color: #C9C9C9;
+}
+

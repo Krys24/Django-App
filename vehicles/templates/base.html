@@ -7,7 +7,7 @@
     <title>Lingscars - Vehicles</title>
   </head>
 
-  <body>
+  <body BGCOLOR="#eff0f0">
     <header>
       <div id="page-logo">
         <a href="/">Lingscars</a>
@@ -52,6 +52,39 @@
             </div>
           </li>
       </ul>
+
+      <form id = "contactContent">
+        <div>
+            <label>
+              <span>Firstname</span>
+              <input class="generalInput" type="text" name="name" placeholder="Firstname" required><br>
+            </label>
+        </div>
+
+        <div>
+          <label>
+            <span>Lastname</span>
+            <input class="generalInput" type="text" name="lastname" placeholder="Lastname" required><br>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <span>Date</span>
+            <input class="generalInput" type="date" name="date" required><br>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <span>Email</span>
+            <input id ="email" class="generalInput" type="text" name="email" placeholder="Email Address" required><br>
+          </label>
+        </div>
+
+        <button id = "submit" type="submit" value="Submit">Submit</button>
+
+      </form>
 
     </main>
 
