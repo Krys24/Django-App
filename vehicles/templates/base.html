@@ -8,7 +8,54 @@
   </head>
 
   <body>
-    <h1>Vehicles</h1>
-    <p>Well Davo & Krysto</p>
+    <header>
+      <div id="page-logo">
+        <a href="/">LINGSCARS</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/vehicles/">Vehicles</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <ul id="vehicles-ul">
+          <li class="vehicles-li">
+            <img src = "{% static 'new_mercedes.jpg' %}" alt="Mercedes"/>
+            <p><span>Mercedes</span> <strong class = "model">E-Class</strong></p>
+            <div>
+                <p>BHP : <strong>150</strong></p>
+                <p>Type : <strong>Automatic</strong></p>
+                <p>Fuel : <strong>Diesel</strong></p>
+            </div>
+          </li>
+
+          <li class="vehicles-li">
+            <img src = "{% static 'new_tesla.jpg' %}" alt="Tesla"/>
+            <p><span>Tesla</span> <strong class = "model">Model Y</strong></p>
+            <div>
+                <p>BHP : <strong>150</strong></p>
+                <p>Type : <strong>Automatic</strong></p>
+                <p>Fuel : <strong>Diesel</strong></p>
+            </div>
+          </li>
+
+          <li class="vehicles-li">
+            <img src = "{% static 'new_renault.jpg' %}" alt="Renault"/>
+            <p><span>Renault</span> <strong class = "model">Clio</strong></p>
+            <div>
+                <p>BHP : <strong>150</strong></p>
+                <p>Type : <strong>Automatic</strong></p>
+                <p>Fuel : <strong>Diesel</strong></p>
+            </div>
+          </li>
+      </ul>
+
+    </main>
+
+    <footer>
+    </footer>
   </body>
 </html>
