@@ -1,9 +1,5 @@
 <! \assignment\static\main.css !>
 
-body {
-	background-color: #b59700;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
@@ -16,7 +12,7 @@ header {
 	padding: 1.5rem 5rem;
 	width: 100%;
 	box-sizing: border-box;
-	
+
 }
 
 header ul {
@@ -50,9 +46,8 @@ header nav a:hover {
 
 #banner-image {
 	height: 23rem;
-	border-radius: 6px;
-	box-shadow: 2px 4px 8px rgb(68, 67, 67);
-
+	width: 100%;
+	margin: auto;
 }
 
 p {
@@ -101,4 +96,49 @@ img {
 	background-color: rgb(133, 125, 224);
 }
 
+#about-section {
+    text-align: center;
+    padding: 5% 15%;
+}
 
+#vehicles-ul {
+    list-style: none;
+    padding-top: 5%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.vehicles-li {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.vehicles-li p {
+      text-align: center;
+      font-size: 24px;
+      color: rgb(124, 123, 123);
+      margin: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.vehicles-li img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+div strong {
+  color: #809fff;
+}
+
+.model {
+  color: rgb(0, 160, 117);
+}

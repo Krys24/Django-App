@@ -1,16 +1,18 @@
+{% load i18n %}
 {% load static %}
+
 <!DOCTYPE html>
-<html>
+<html margin="0">
   <link rel="stylesheet" href="{% static 'main.css' %}" />
   <head>
     <meta charset="utf-8" />
     <title>Lingscars - Home</title>
   </head>
 
-  <body>
+  <body BGCOLOR="#eff0f0" leftmargin="0" rightmargin="0">
     <header>
       <div id="page-logo">
-        <a href="/index.html">LINGSCARS</a>
+        <a href="/"><span id = "logo">LINGS</span>CARS</a>
       </div>
       <nav>
         <ul>
@@ -20,20 +22,9 @@
       </nav>
     </header>
 
+      <img src="{% static 'ling_banner.jpeg' %}" id="banner-image" alt="Pic of Cars" />
+
     <main>
-      <img src="{% static 'ling_tropical.jpg' %}" id="banner-image" alt="Ling In Tropics" />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo nobis est
-        possimus voluptatibus, sint, dolor iure molestiae inventore vitae fuga
-        ipsa excepturi. Voluptate aperiam neque facere ratione sapiente totam
-        suscipit?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-        laboriosam nemo, voluptate asperiores deserunt rem, quo nesciunt fuga
-        aut enim eum in placeat magni architecto esse ratione! Vitae, quibusdam
-        numquam.
-      </p>
       <div class="cardholder">
         <div class="card" style="width: 18rem">
           <img src="{% static 'new_mercedes.jpg' %}" class="card-img-top" alt="Mercedes Car" />
@@ -70,8 +61,5 @@
         </div>
       </div>
     </main>
-
-    <footer>
-    </footer>
   </body>
 </html>

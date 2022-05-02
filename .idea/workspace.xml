@@ -4,7 +4,8 @@
     <list default="true" id="15a95e3c-a31f-41ba-af88-c764bce20527" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css.bak" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
