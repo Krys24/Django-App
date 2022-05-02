@@ -12,7 +12,7 @@ header {
 	padding: 1.5rem 5rem;
 	width: 100%;
 	box-sizing: border-box;
-	
+
 }
 
 header ul {
@@ -142,6 +142,3 @@ div strong {
 .model {
   color: rgb(0, 160, 117);
 }
-
-
-
