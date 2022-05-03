@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4a1f4f-4cb5-4ddb-b86b-0f201c0cc942" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/assignment.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/locale/ch/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/locale/ch/LC_MESSAGES/django.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/locale/ch/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/locale/ch/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/locale/de/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
