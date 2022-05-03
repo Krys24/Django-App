@@ -20,7 +20,7 @@ msgstr ""
 
 #: .\assignment\settings.py:18
 msgid "French"
-msgstr "Frankreich"
+msgstr "Französisch"
 
 #: .\assignment\settings.py:19
 msgid "English"
@@ -29,6 +29,10 @@ msgstr "Englisch"
 #: .\assignment\settings.py:20
 msgid "German"
 msgstr "Deutsch"
+
+#: .\assignment\settings.py:20
+msgid "Chinese"
+msgstr "Chinesisch"
 
 #: .\vehicles\templates\base.html:19
 msgid "Home"
@@ -85,6 +89,10 @@ msgstr "Datum"
 #: .\vehicles\templates\base.html:19
 msgid "Submit"
 msgstr "Senden"
+
+#: .\vehicles\templates\base.html:19
+msgid "Email"
+msgstr "Email"
 
 #: .\vehicles\views.py:8
 msgid "Welcome to language translation!"
