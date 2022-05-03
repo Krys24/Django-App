@@ -120,6 +120,38 @@ msgid "Email"
 msgstr "电子邮件"
 
 #: .\vehicles\templates\base.html:87
+msgid "About Ling"
+msgstr "关于玲"
+
+#: .\vehicles\templates\base.html:87
+msgid "Ling is the hardest working car leasing provider, Ling runs LINGsCARS, and it is the UK's favourite car leasing website. Ling has more happy new-car customers and supplies more new cars than many of the anonymous, and some big-name leasing companies out there, combined."
+msgstr "Ling 是最努力的汽车租赁提供商，Ling 经营着 LINGsCARS，它是英国最受欢迎的汽车租赁网站。 Ling 拥有更多满意的新车客户，并且提供的新车数量超过了许多匿名者和一些知名租赁公司的总和。"
+
+#: .\vehicles\templates\base.html:87
+msgid "This is happy Ling"
+msgstr "这是快乐的玲"
+
+#: .\vehicles\templates\base.html:87
+msgid "Ling is From Chengdu, China. Ling is the full-time owner of LINGsCARS and she specialises in supplying new UK Contact Hire, cars and vans. LINGsCARS take up a lot of Lings time especially for the business to be succesfull, it take a lot of hard work. Fun fact, in 2008, Ling more over £35,000,000 of brand new cars!"
+msgstr "玲来自中国成都。 Ling 是 LINGsCARS 的全职所有者，她专门提供新的 UK Contact Hire、汽车和货车。 LINGsCARS占用了Lings很多时间，尤其是为了生意成功，需要付出很多努力。有趣的是，2008 年，Ling 拥有超过 35,000,000 英镑的全新汽车！"
+
+#: .\vehicles\templates\base.html:87
+msgid "This is Lings Rocket"
+msgstr "这是凌星火箭"
+
+#: .\vehicles\templates\base.html:87
+msgid "This is Lings rocket or you can call it a nuclear missile truck. The missile truck was initially next to A1 Motorway, near Darlington. After 2-years on the A1, it was moved to the South, by the M62 Motorway near, Saddleworth Moor. Also, the M62 is one of the busiest motorways in Western Europe. The rocket truck has been featured in the media plenty of times. Building a nuclear missile truck can be expensive, it is not a good investment for the business."
+msgstr "这是Lings火箭，或者你可以称它为核导弹卡车。导弹卡车最初位于达灵顿附近的 A1 高速公路旁。在 A1 上行驶了 2 年后，它被移到了南部，靠近萨德尔沃思沼泽地的 M62 高速公路。此外，M62 是西欧最繁忙的高速公路之一。这辆火箭卡车曾多次出现在媒体上。建造核导弹卡车可能很昂贵，这对企业来说不是一项好的投资。"
+
+#: .\vehicles\templates\base.html:87
+msgid "Ling at Dragons Den"
+msgstr "龙穴的玲"
+
+#: .\vehicles\templates\base.html:87
+msgid "Ling had been running her business LingsCars.com for about five years by the time she appeared before the Dragons in February 2007. With an entertaining and spirited pitch that managed to crack smiles on even the most stony of Dragon faces, Ling displayed charm and enthusiasm as well as a truly unique eye for marketing techniques. Her personality and skills led to both Richard Farleigh and Duncan Bannatyne offering to buy equity in her company, but that was only the start of the drama."
+msgstr "到 2007 年 2 月，当她出现在龙队面前时，Ling 已经经营了她的业务 LingsCars.com 大约五年。 Ling 以一种有趣而充满活力的音调，即使是最冷酷的龙脸上也能开出笑容，Ling 表现出魅力和热情以及对营销技术的真正独特的眼光。她的个性和技能导致 Richard Farleigh 和 Duncan Bannatyne 都提出购买她公司的股权，但这只是戏剧的开始。"
+
+#: .\vehicles\templates\base.html:87
 msgid "15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, United Kingdom"
 msgstr "15， 河滨工作室， 纽卡斯尔商业园， 紫水晶路， 纽卡斯尔， 英国"
 

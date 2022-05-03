@@ -111,15 +111,16 @@ footer {
 }
 
 .container {
-    width: 70%;
     text-align: center;
     padding: 2% 10%;
     margin: auto;
+    width: 40%;
 }
 
 #vid {
-    height: 20rem;
-    width: 35rem;
+    height: 15rem;
+    width: 30rem;
+    border: none;
 }
 
 #vehicles-ul {
@@ -211,4 +212,54 @@ input {
 input:hover,
 input:focus {
     background-color: #C9C9C9;
+}
+
+#about-ul {
+    list-style: none;
+    padding-top: 5%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.about-li {
+    margin: 0 20px;
+    width: 50%;
+}
+
+.about-li p {
+      text-align: center;
+      font-size: 15px;
+      margin: 10px 0;
+}
+
+.about-li img {
+    transition: transform .2s;
+}
+
+.about-li img:hover {
+    transform: scale(1.1);
+}
+
+.about-li img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+ }
+
+.video {
+    display: block;
+    background-color: rgb(170, 170, 162);
+    padding: 5%;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+.abl {
+  color: rgb(204, 153, 255);
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
