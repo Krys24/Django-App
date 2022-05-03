@@ -41,6 +41,30 @@ msgstr "家"
 msgid "About"
 msgstr "大约"
 
+#: .\vehicles\templates\base.html:21
+msgid "Vehicles"
+msgstr "汽车"
+
+#: .\vehicles\templates\index.html:31
+msgid "Collection"
+msgstr "收藏"
+
+#: .\vehicles\templates\index.html:33
+msgid "Check out our latest collection of Mercedes. Here you will find the best luxury vehicles, manual and electric."
+msgstr "查看我们最新的梅赛德斯系列。在这里，您将找到最好的豪华车，手动和电动。"
+
+#: .\vehicles\templates\index.html:35
+msgid "Show More"
+msgstr "显示更多"
+
+#: .\vehicles\templates\index.html:42
+msgid "Check out our latest collection of Renault. Here you will find a wide range of vehicles, cheap and expensive."
+msgstr "查看我们最新的雷诺系列。在这里你会发现各种各样的车辆，便宜的和昂贵的。"
+
+#: .\vehicles\templates\index.html:51
+msgid "Check out our latest collection of Teslas. Here you will find the best electric cars currently on the market."
+msgstr "查看我们最新的特斯拉系列。在这里，您将找到目前市场上最好的电动汽车。"
+
 #: .\vehicles\templates\base.html:29
 msgid "Mercedes"
 msgstr ""

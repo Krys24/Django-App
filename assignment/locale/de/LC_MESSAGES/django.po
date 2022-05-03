@@ -42,6 +42,30 @@ msgstr "Heim"
 msgid "About"
 msgstr "Über"
 
+#: .\vehicles\templates\index.html:21
+msgid "Vehicles"
+msgstr "Fahrzeuge"
+
+#: .\vehicles\templates\index.html:31
+msgid "Collection"
+msgstr "Sammlung"
+
+#: .\vehicles\templates\index.html:33
+msgid "Check out our latest collection of Mercedes. Here you will find the best luxury vehicles, manual and electric."
+msgstr "Schauen Sie sich unsere neueste Kollektion von Mercedes an. Hier finden Sie die besten Luxusfahrzeuge, manuell und elektrisch."
+
+#: .\vehicles\templates\index.html:42
+msgid "Check out our latest collection of Renault. Here you will find a wide range of vehicles, cheap and expensive."
+msgstr "Schauen Sie sich unsere neueste Kollektion von Renault an. Hier finden Sie eine große Auswahl an Fahrzeugen, günstig und teuer."
+
+#: .\vehicles\templates\index.html:44
+msgid "Show More"
+msgstr "Zeig mehr"
+
+#: .\vehicles\templates\index.html:51
+msgid "Check out our latest collection of Teslas. Here you will find the best electric cars currently on the market."
+msgstr "Sehen Sie sich unsere neueste Tesla-Kollektion an. Hier finden Sie die derzeit besten Elektroautos auf dem Markt."
+
 #: .\vehicles\templates\base.html:19
 msgid "Merc"
 msgstr "Mercedes"
@@ -93,6 +117,18 @@ msgstr "Senden"
 #: .\vehicles\templates\base.html:19
 msgid "Email"
 msgstr "Email"
+
+#: .\vehicles\templates\base.html:87
+msgid "15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, United Kingdom"
+msgstr "15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, Vereinigtes Königreich"
+
+#: .\vehicles\templates\base.html:87
+msgid "Telephone: +44 191 460 9444"
+msgstr "Telefon: +44 191 460 9444"
+
+#: .\vehicles\templates\base.html:87
+msgid "Opening hours: Monday-Friday - 8am to 6pm"
+msgstr "Öffnungszeiten: Montag-Freitag - 8 bis 18 Uhr"
 
 #: .\vehicles\views.py:8
 msgid "Welcome to language translation!"
