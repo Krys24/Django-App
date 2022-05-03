@@ -1,7 +1,16 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+from django.utils.translation import gettext_lazy as _
 
-# This is a function we will set up a path to in our urls.py
+
+def testlang(request):
+
+    return HttpResponse(_('Welcome to language translation!'))
+
+
 def index(request):
 
-# return base.html passing our populated variables title and cal as parameters
+    # return base.html passing our populated variables title and cal as parameters
     return render(request, 'base.html')
+
+

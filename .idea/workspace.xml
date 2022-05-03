@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61a5fd75-f024-45d7-a8b5-ca9e3b2d12c4" name="Changes" comment="">
+    <list default="true" id="15a95e3c-a31f-41ba-af88-c764bce20527" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicles/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/about.html" afterDir="false" />
@@ -30,12 +31,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61a5fd75-f024-45d7-a8b5-ca9e3b2d12c4" name="Changes" comment="" />
+      <changelist id="15a95e3c-a31f-41ba-af88-c764bce20527" name="Changes" comment="" />
       <created>1651496522333</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651496522333</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
