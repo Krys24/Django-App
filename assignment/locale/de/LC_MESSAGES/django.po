@@ -39,6 +39,38 @@ msgid "Home"
 msgstr "Heim"
 
 #: .\vehicles\templates\base.html:19
+msgid "Ling is the hardest working car leasing provider, Ling runs LINGsCARS, and it is the UK's favourite car leasing website. Ling has more happy new-car customers and supplies more new cars than many of the anonymous, and some big-name leasing companies out there, combined."
+msgstr "Ling ist der am härtesten arbeitende Autoleasinganbieter, Ling betreibt LINGsCARS und ist die beliebteste Autoleasing-Website in Großbritannien. Ling hat mehr zufriedene Neuwagenkunden und liefert mehr Neuwagen als viele der anonymen und einige namhafte Leasinggesellschaften da draußen zusammen."
+
+#: .\vehicles\templates\base.html:19
+msgid "About Ling"
+msgstr "Über Ling"
+
+#: .\vehicles\templates\base.html:19
+msgid "This is happy Ling"
+msgstr "Das ist glücklicher Ling"
+
+#: .\vehicles\templates\base.html:19
+msgid "Ling is From Chengdu, China. Ling is the full-time owner of LINGsCARS and she specialises in supplying new UK Contact Hire, cars and vans. LINGsCARS take up a lot of Lings time especially for the business to be succesfull, it take a lot of hard work. Fun fact, in 2008, Ling more over £35,000,000 of brand new cars!"
+msgstr "Ling kommt aus Chengdu, China. Ling ist die Vollzeit-Eigentümerin von LINGsCARS und sie ist spezialisiert auf die Lieferung von neuen UK Contact Hire, Autos und Lieferwagen. LINGsCARS nehmen viel Zeit in Anspruch, besonders damit das Geschäft erfolgreich ist, es erfordert viel harte Arbeit. Unterhaltsame Tatsache, im Jahr 2008 hat Ling brandneue Autos im Wert von über 35.000.000 £ bezahlt!"
+
+#: .\vehicles\templates\base.html:19
+msgid "This is Lings Rocket"
+msgstr "Das ist Lings Rocket"
+
+#: .\vehicles\templates\base.html:19
+msgid "This is Lings rocket or you can call it a nuclear missile truck. The missile truck was initially next to A1 Motorway, near Darlington. After 2-years on the A1, it was moved to the South, by the M62 Motorway near, Saddleworth Moor. Also, the M62 is one of the busiest motorways in Western Europe. The rocket truck has been featured in the media plenty of times. Building a nuclear missile truck can be expensive, it is not a good investment for the business."
+msgstr "Das ist Lings Rakete oder man kann es einen Atomraketen-LKW nennen. Der Raketenlastwagen befand sich ursprünglich neben der Autobahn A1 in der Nähe von Darlington. Nach 2 Jahren auf der A1 wurde es nach Süden verlegt, an die Autobahn M62 in der Nähe von Saddleworth Moor. Außerdem ist die M62 eine der verkehrsreichsten Autobahnen in Westeuropa. Der Raketentruck wurde schon oft in den Medien vorgestellt. Der Bau eines nuklearen Raketenlastwagens kann teuer sein, es ist keine gute Investition für das Unternehmen."
+
+#: .\vehicles\templates\base.html:19
+msgid "Ling at Dragons Den"
+msgstr "Ling in der Drachenhöhle"
+
+#: .\vehicles\templates\base.html:19
+msgid "Ling had been running her business LingsCars.com for about five years by the time she appeared before the Dragons in February 2007. With an entertaining and spirited pitch that managed to crack smiles on even the most stony of Dragon faces, Ling displayed charm and enthusiasm as well as a truly unique eye for marketing techniques. Her personality and skills led to both Richard Farleigh and Duncan Bannatyne offering to buy equity in her company, but that was only the start of the drama."
+msgstr "Als sie im Februar 2007 vor den Dragons auftrat, führte Ling ihr Geschäft LingsCars.com bereits seit etwa fünf Jahren sowie ein wirklich einzigartiges Auge für Marketingtechniken. Ihre Persönlichkeit und ihre Fähigkeiten führten dazu, dass sowohl Richard Farleigh als auch Duncan Bannatyne anboten, Anteile an ihrem Unternehmen zu kaufen, aber das war nur der Anfang des Dramas."
+
+#: .\vehicles\templates\base.html:19
 msgid "About"
 msgstr "Über"
 

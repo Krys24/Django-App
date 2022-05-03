@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -7,52 +8,72 @@
     <title>Lingscars - About</title>
   </head>
 
-  <body leftmargin="0" rightmargin="0">
+  <body BGCOLOR="#eff0f0">
     <header>
       <div id="page-logo">
         <a href="/">LINGSCARS</a>
       </div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/vehicles/">Vehicles</a></li>
+          <li><a href="/">{% trans "Home" %}</a></li>
+          <li><a href="/vehicles/">{% trans "Vehicles" %}</a></li>
         </ul>
       </nav>
     </header>
 
-    <main id="about-section">
-      <img src="{% static 'ling_tropical.jpg' %}" id="banner-image" alt="Ling In Tropics" />
-          <div class="container">
-              <h1>
-                About Ling
-              </h1>
+    <main>
+        <img src="{% static 'ling_tropical.jpg' %}" id="banner-image" alt="Ling In Tropics" />
+
+        <div class="container">
+            <h1>
+                {% trans "About Ling" %}
+            </h1>
               <p>
-                Ling is hardest working car leasing provider, Ling runs LINGsCARS, and it is the UK's favourite car leasing website.
-                Don't be deceived... I may be a scruffy Chinese girl, but I have more happy new-car customers and supply more new cars than many of the anonymous (and some big-name!) leasing companies out there, combined.
+                  {% trans "Ling is the hardest working car leasing provider, Ling runs LINGsCARS, and it is the UK's favourite car leasing website. Ling has more happy new-car customers and supplies more new cars than many of the anonymous, and some big-name leasing companies out there, combined." %}
               </p>
-            </div>
-      <br>
-            <!-- Bring in iframe to display youtube video -->
-
-            <div class="container">
-              <div class="left_cont">
+                <div class="video">
                 <iframe id="vid" src="https://www.youtube.com/embed/LzNjF8oyEmI" ></iframe>
-              </div>
-              <div class="right_cont">
-                <h3>LINGS</h3>
+                </div>
+        </div>
 
-                <p>Please click on the YouTube video.</p>
-              </div>
+      <ul id="about-ul">
+          <li class="about-li">
+            <img src = "{% static 'ling-smile.jpeg' %}" alt="Smile"/>
+            <p><span><strong class="abl">{% trans "This is happy Ling" %}</strong></span></p>
+            <div>
+                <p> {% trans "Ling is From Chengdu, China. Ling is the full-time owner of LINGsCARS and she specialises in supplying new UK Contact Hire, cars and vans. LINGsCARS take up a lot of Lings time especially for the business to be succesfull, it take a lot of hard work. Fun fact, in 2008, Ling more over £35,000,000 of brand new cars!" %}
+                </p>
+            </div>
+          </li>
 
-          </div>
+          <li class="about-li">
+            <img src = "{% static 'lingrocket.jpeg' %}" alt="Rocket"/>
+            <p><span><strong class="abl">{% trans "This is Lings Rocket" %}</strong></span></p>
+            <div>
+                <p> {% trans "This is Lings rocket or you can call it a nuclear missile truck. The missile truck was initially next to A1 Motorway, near Darlington. After 2-years on the A1, it was moved to the South, by the M62 Motorway near, Saddleworth Moor. Also, the M62 is one of the busiest motorways in Western Europe. The rocket truck has been featured in the media plenty of times. Building a nuclear missile truck can be expensive, it is not a good investment for the business."%}
+                </p>
+            </div>
+          </li>
+
+          <li class="about-li">
+            <img src = "{% static 'dragons_den.jpeg' %}" alt="Dragon"/>
+            <p><span><strong class="abl">{% trans "Ling at Dragons Den" %}</strong></span></p>
+            <div>
+                <p>
+                    {% trans "Ling had been running her business LingsCars.com for about five years by the time she appeared before the Dragons in February 2007. With an entertaining and spirited pitch that managed to crack smiles on even the most stony of Dragon faces, Ling displayed charm and enthusiasm as well as a truly unique eye for marketing techniques. Her personality and skills led to both Richard Farleigh and Duncan Bannatyne offering to buy equity in her company, but that was only the start of the drama." %}
+                </p>
+            </div>
+          </li>
+      </ul>
+
     </main>
 
     <footer>
-          <div id="footer">
-            <p>15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, United Kingdom</p>
-            <p>Telephone: +44 191 460 9444</p>
-            <p>Opening hours: Monday-Friday - 8am to 6pm</p>
-          </div>
+        <div id="footer">
+              <p>{% trans "15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, United Kingdom" %}</p>
+              <p>{% trans "Telephone: +44 191 460 9444" %}</p>
+              <p>{% trans "Opening hours: Monday-Friday - 8am to 6pm" %}</p>
+        </div>
     </footer>
   </body>
 </html>
