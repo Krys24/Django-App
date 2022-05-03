@@ -18,6 +18,7 @@ LANGUAGES = (
     ('fr', _('French')),
     ('en', _('English')),
     ('de', _('German')),
+    ('ch', _('Chinese')),
 )
 
 LOCALE_PATHS = (
