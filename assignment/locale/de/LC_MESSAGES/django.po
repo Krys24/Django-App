@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 23:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\assignment\settings.py:18
+msgid "French"
+msgstr "Frankreich"
+
+#: .\assignment\settings.py:19
+msgid "English"
+msgstr "Englisch"
+
+#: .\assignment\settings.py:20
+msgid "German"
+msgstr "Deutsch"
+
+#: .\vehicles\templates\base.html:19
+msgid "Home"
+msgstr "Heim"
+
+#: .\vehicles\templates\base.html:19
+msgid "About"
+msgstr "Über"
+
+#: .\vehicles\templates\base.html:19
+msgid "Merc"
+msgstr "Mercedes"
+
+#: .\vehicles\templates\base.html:19
+msgid "E-Class"
+msgstr "E-Klasse"
+
+#: .\vehicles\templates\base.html:19
+msgid "Type : "
+msgstr "Art : "
+
+#: .\vehicles\templates\base.html:19
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: .\vehicles\templates\base.html:19
+msgid "Manual"
+msgstr "Manuell"
+
+#: .\vehicles\templates\base.html:19
+msgid "Fuel : "
+msgstr "Brennstoff : "
+
+#: .\vehicles\templates\base.html:19
+msgid "Petrol"
+msgstr "Benzin"
+
+#: .\vehicles\templates\base.html:19
+msgid "Diesel"
+msgstr "Diesel"
+
+#: .\vehicles\templates\base.html:19
+msgid "Firstname"
+msgstr "Vorname"
+
+#: .\vehicles\templates\base.html:19
+msgid "Surname"
+msgstr "Familienname"
+
+#: .\vehicles\templates\base.html:19
+msgid "Date"
+msgstr "Datum"
+
+#: .\vehicles\templates\base.html:19
+msgid "Submit"
+msgstr "Senden"
+
+#: .\vehicles\views.py:8
+msgid "Welcome to language translation!"
+msgstr "Welkommen zu Language Translation"

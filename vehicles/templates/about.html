@@ -7,7 +7,7 @@
     <title>Lingscars - About</title>
   </head>
 
-  <body>
+  <body leftmargin="0" rightmargin="0">
     <header>
       <div id="page-logo">
         <a href="/">LINGSCARS</a>
@@ -22,17 +22,37 @@
 
     <main id="about-section">
       <img src="{% static 'ling_tropical.jpg' %}" id="banner-image" alt="Ling In Tropics" />
-      <h1>
-        About Ling
-      </h1>
-      <p>
-        Ling is hardest working car leasing provider, Ling runs LINGsCARS, and it is the UK's favourite car leasing website.
-        Don't be deceived... I may be a scruffy Chinese girl, but I have more happy new-car customers and supply more new cars than many of the anonymous (and some big-name!) leasing companies out there, combined.
-      </p>
+          <div class="container">
+              <h1>
+                About Ling
+              </h1>
+              <p>
+                Ling is hardest working car leasing provider, Ling runs LINGsCARS, and it is the UK's favourite car leasing website.
+                Don't be deceived... I may be a scruffy Chinese girl, but I have more happy new-car customers and supply more new cars than many of the anonymous (and some big-name!) leasing companies out there, combined.
+              </p>
+            </div>
+      <br>
+            <!-- Bring in iframe to display youtube video -->
 
+            <div class="container">
+              <div class="left_cont">
+                <iframe id="vid" src="https://www.youtube.com/embed/LzNjF8oyEmI" ></iframe>
+              </div>
+              <div class="right_cont">
+                <h3>LINGS</h3>
+
+                <p>Please click on the YouTube video.</p>
+              </div>
+
+          </div>
     </main>
 
     <footer>
+          <div id="footer">
+            <p>15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, United Kingdom</p>
+            <p>Telephone: +44 191 460 9444</p>
+            <p>Opening hours: Monday-Friday - 8am to 6pm</p>
+          </div>
     </footer>
   </body>
 </html>

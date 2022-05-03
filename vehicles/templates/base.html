@@ -1,4 +1,6 @@
+{% load i18n %}
 {% load static %}
+
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" href="{% static 'main.css' %}" />
@@ -7,15 +9,15 @@
     <title>Lingscars - Vehicles</title>
   </head>
 
-  <body>
+  <body BGCOLOR="#eff0f0">
     <header>
       <div id="page-logo">
         <a href="/">Lingscars</a>
       </div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
+          <li><a href="/">{% trans "Home" %}</a></li>
+          <li><a href="/about/">{% trans "About" %}</a></li>
         </ul>
       </nav>
     </header>
@@ -24,11 +26,11 @@
       <ul id="vehicles-ul">
           <li class="vehicles-li">
             <img src = "{% static 'new_mercedes.jpg' %}" alt="Mercedes"/>
-            <p><span>Mercedes</span> <strong class = "model">E-Class</strong></p>
+            <p><span>{% trans "Mercedes" %}</span> <strong class = "model">{% trans "E-Class" %}</strong></p>
             <div>
                 <p>BHP : <strong>150</strong></p>
-                <p>Type : <strong>Automatic</strong></p>
-                <p>Fuel : <strong>Diesel</strong></p>
+                <p>{% trans "Type : " %}<strong> {% trans "Automatic" %}</strong></p>
+                <p>{% trans "Fuel : " %}<strong> {% trans "Diesel" %}</strong></p>
             </div>
           </li>
 
@@ -37,8 +39,8 @@
             <p><span>Tesla</span> <strong class = "model">Model Y</strong></p>
             <div>
                 <p>BHP : <strong>150</strong></p>
-                <p>Type : <strong>Automatic</strong></p>
-                <p>Fuel : <strong>Diesel</strong></p>
+                <p>{% trans "Type : " %}<strong> {% trans "Automatic" %}</strong></p>
+                <p>{% trans "Fuel : " %}<strong> N/A</strong></p>
             </div>
           </li>
 
@@ -47,15 +49,55 @@
             <p><span>Renault</span> <strong class = "model">Clio</strong></p>
             <div>
                 <p>BHP : <strong>150</strong></p>
-                <p>Type : <strong>Automatic</strong></p>
-                <p>Fuel : <strong>Diesel</strong></p>
+                <p>{% trans "Type : " %}<strong> {% trans "Manual" %}</strong></p>
+                <p>{% trans "Fuel : " %}<strong> {% trans "Petrol" %}</strong></p>
             </div>
           </li>
       </ul>
 
+      <form id = "contactContent">
+        <div>
+            <label>
+              <span>{% trans "Firstname" %}</span>
+              <input class="generalInput" type="text" name="name" required><br>
+            </label>
+        </div>
+
+        <div>
+          <label>
+            <span>{% trans "Surname" %}</span>
+            <input class="generalInput" type="text" name="lastname" required><br>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <span>{% trans "Date" %}</span>
+            <input class="generalInput" type="date" name="date" required><br>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <span>Email</span>
+            <input id ="email" class="generalInput" type="text" name="email" required><br>
+          </label>
+        </div>
+
+        <button id = "submit" type="submit" value="Submit">{% trans "Submit" %}</button>
+
+      </form>
+
     </main>
 
     <footer>
+      <footer>
+          <div id="footer">
+            <p>15, Riverside Studios, Newcastle Business Park, Amethyst Rd, Newcastle, United Kingdom</p>
+            <p>Telephone: +44 191 460 9444</p>
+            <p>Opening hours: Monday-Friday - 8am to 6pm</p>
+          </div>
+    </footer>
     </footer>
   </body>
 </html>
