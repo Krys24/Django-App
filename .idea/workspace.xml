@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15a95e3c-a31f-41ba-af88-c764bce20527" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="15a95e3c-a31f-41ba-af88-c764bce20527" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
